@@ -4,5 +4,5 @@ firebase.initializeApp({
   projectId: "ejemploauthjb",
   storageBucket: "ejemploauthjb.appspot.com",
   messagingSenderId: "429383807142",
-  appId: "1:429383807142:web:db26f35e8b08ca1a8d0467"
+  appId: "1:429383807142:web:de941a04763a0fef8d0467"
 });
