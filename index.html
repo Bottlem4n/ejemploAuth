@@ -37,7 +37,7 @@
     const autenticacion = firebase.auth();
     /** Tipo de autenticación de usuarios. En este caso es con Google. */
     // @ts-ignore
-    const proveedor = new firebase.autenticacion.GoogleAuthProvider();
+    const proveedor = new firebase.auth.GoogleAuthProvider();
     /* Configura el proveedor de Google para que permita seleccionar de una
     * lista. */
     proveedor.setCustomParameters({ prompt: "select_account" });
