@@ -67,16 +67,16 @@
     async function cerrarSesion() {
         try {
             await autenticacion.signOut();
-        } catch (e) {
-            procesaError(e);
+        } catch (error) {
+            procesaError(error);
         }
     }
     /** Procesa un error. Muestra el objeto en la consola y un cuadro de
      * alerta con el mensaje.
      * @param {Error} e descripción del error. */
-    function procesaError(e) {
-    console.log(e);
-    alert(e.message);
+    function procesaError(error) {
+    console.log(error);
+    alert(error.message);
     }
     </script>
     
